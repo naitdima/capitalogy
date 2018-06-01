@@ -10,7 +10,10 @@ html {
 }
 
 body {
-  
+  font-family: $main-font;
+  line-height: 17px;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 a {
