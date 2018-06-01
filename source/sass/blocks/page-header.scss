@@ -8,4 +8,8 @@
 
 .page-header__logo {
   padding-left: 15px;
+
+  &--less {
+    display: none;
+  }
 }
