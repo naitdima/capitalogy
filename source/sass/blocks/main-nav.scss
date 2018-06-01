@@ -1,0 +1,16 @@
+.main-nav__btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  width: 34px;
+  height: 25px;
+
+  background-image: url("../img/icon-hamburger.svg");
+  background-size: cover;
+  cursor: pointer;
+}
+
+.main-nav__list {
+  display: none;
+}

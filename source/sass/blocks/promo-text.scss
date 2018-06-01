@@ -1,0 +1,32 @@
+.promo-text {
+  order: 2;
+}
+
+.promo-text__descr {
+  margin: 0;
+
+  &--experts {
+    display: none;
+  }
+
+  &--question {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    font-family: $secont-font;
+    text-align: center;
+    color: #0c0c0c;
+  }
+}
+
+.promo-text__title {
+  margin: 0;
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 34px;
+  font-family: $secont-font;
+  text-align: center;
+  color: #000000;
+  text-shadow: 0 0 250px #ffffff;
+}
