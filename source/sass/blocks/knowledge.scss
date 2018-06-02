@@ -1,0 +1,89 @@
+.knowledge {
+  position: relative;
+
+  padding-top: 35px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+
+    width: 290px;
+    height: 1px;
+
+    background-color: #e0e0e0;
+  }
+}
+
+.knowledge__title {
+  margin: 0;
+  margin-bottom: 25px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: normal;
+  color: #0c0c0c;
+}
+
+.knowledge__list {
+  @include list-reset;
+
+  display: grid;
+  margin-bottom: 20px;
+
+  grid-gap: 15px;
+}
+
+.knowledge__item {
+  position: relative;
+
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 60px;
+
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 40px;
+    height: 40px;
+
+    background-color: #57ab27;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  &:nth-child(1)::before {
+    background-image: url("../img/number-1.svg");
+  }
+
+  &:nth-child(2)::before {
+    background-image: url("../img/number-2.svg");
+  }
+
+  &:nth-child(3)::before {
+    background-image: url("../img/number-3.svg");
+  }
+
+  &:nth-child(4)::before {
+    background-image: url("../img/number-4.svg");
+  }
+}
+
+.knowledge__descr {
+  margin: 0;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 21px;
+  color: #000000;
+}

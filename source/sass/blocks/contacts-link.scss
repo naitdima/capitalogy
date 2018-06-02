@@ -1,0 +1,23 @@
+.contacts-link {
+  position: relative;
+  width: 150px;
+  display: block;
+  padding-left: 40px;
+
+  font-size: 14px;
+  line-height: 18px;
+  color: #0c0c0c;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    background-image: url("../img/icon-phone-nobg.svg");
+    background-size: cover;
+  }
+}

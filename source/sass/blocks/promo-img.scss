@@ -1,15 +1,13 @@
 .promo-img {
   position: relative;
 
-  order: 1;
   width: 100%;
-  margin-top: -55px;
   margin-bottom: 20px;
 
   &::before {
     content: "";
     position: absolute;
-    top: 54px;
+    top: -26px;
     left: 32px;
 
     width: 243px;

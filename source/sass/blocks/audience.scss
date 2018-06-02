@@ -1,0 +1,26 @@
+.audience {
+  padding-top: 30px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+}
+
+.audience__title {
+  margin: 0;
+  margin-bottom: 15px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #0c0c0c;
+}
+
+.audience__list {
+  @include list-reset;
+}
+
+.audience__item {
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+}

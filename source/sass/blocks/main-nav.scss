@@ -1,16 +1,48 @@
-.main-nav__btn {
-  position: absolute;
-  top: 20px;
-  right: 20px;
+.main-nav {
+  display: none;
 
-  width: 34px;
-  height: 25px;
+  &--show {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 
-  background-image: url("../img/icon-hamburger.svg");
-  background-size: cover;
-  cursor: pointer;
+    display: grid;
+    width: 100vw;
+    height: auto;
+    padding-top: 95px;
+    padding-bottom: 60px;
+
+    background-color: #ffffff;
+
+    justify-items: center;
+  }
+
+  &--less {
+    display: none;
+  }
 }
 
 .main-nav__list {
-  display: none;
+  @include list-reset;
+
+  display: grid;
+  order: 1;
+  width: 320px;
+  margin-bottom: 50px;
+  padding-right: 25px;
+  padding-left: 45px;
+
+  grid-gap: 40px;
+}
+
+.main-nav__link {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+  color: #0c0c0c;
+}
+
+.main-nav__contacts-link {
+  order: 2;
 }
