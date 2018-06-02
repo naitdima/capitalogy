@@ -46,7 +46,15 @@
             <a class="btn  promo-text__link" href="registration.html">Записаться</a>
           </section>
           <section class="promo-img">
-            <img class="promo-img__img" src="img/people-mobile@1x.png 1x" srcset="img/people-mobile@2x.png 2x" alt="Эксперты компании «Капиталогия»">
+            <picture>
+              <source type="image/webp" media="(min-width: 1300px)" srcset="img/people-desktop@1x.webp 1x, img/people-desktop@2x.webp 2x">
+              <source type="image/webp" media="(min-width: 768px)" srcset="img/people-tablet@1x.webp 1x, img/people-tablet@2x.webp 2x">
+              <source type="image/webp" srcset="img/people-mobile@1x.webp 1x, img/people-mobile@2x.webp 2x">
+
+              <source media="(min-width: 1300px)" srcset="img/people-desktop@1x.png 1x, img/people-desktop@2x.png 2x">
+              <source media="(min-width: 768px)" srcset="img/people-tablet@1x.png 1x, img/people-tablet@2x.png 2x">
+              <img class="promo-img__img" src="img/people-mobile@1x.png 1x" srcset="img/people-mobile@2x.png 2x" alt="Эксперты компании «Капиталогия»">
+            </picture>
           </section>
         </section>
         <section class="page-header__logo  page-header__logo--less">
@@ -98,7 +106,15 @@
         </section>
         <section class="video">
           <a class="video__wrap" href="#">
-            <img class="video__img" src="img/video-mobile@1x.jpg 1x" srcset="img/video-mobile@2x.jpg 2x" alt="Видео-приглашение">
+            <picture>
+              <source type="image/webp" media="(min-width: 1300px)" srcset="img/video-desktop@1x.webp 1x, img/video-desktop@2x.webp 2x">
+              <source type="image/webp" media="(min-width: 768px)" srcset="img/video-tablet@1x.webp 1x, img/video-tablet@2x.webp 2x">
+              <source type="image/webp" srcset="img/video-mobile@1x.webp 1x, img/video-mobile@2x.webp 2x">
+
+              <source media="(min-width: 1300px)" srcset="img/video-desktop@1x.jpg 1x, img/video-desktop@2x.jpg 2x">
+              <source media="(min-width: 768px)" srcset="img/video-tablet@1x.jpg 1x, img/video-tablet@2x.jpg 2x">
+              <img class="video__img" src="img/video-mobile@1x.jpg 1x" srcset="img/video-mobile@2x.jpg 2x" alt="Видео-приглашение">
+            </picture>
           </a>
         </section>
         <section class="duration">
@@ -112,24 +128,56 @@
               <h4 class="speakers__item-title">Иван Терешин</h4>
               <p class="speakers__item-descr">Практикующий инвестор, специализируется на мировых финансовых рынках.</p>
               <p class="speakers__item-descr">Эксперт-консультант Just Capital Ltd.</p>
-              <img class="speakers__item-img" src="img/tereshin-mobile@1x.png 1x" srcset="img/tereshin-mobile@2x.png 2x" alt="Иваш Терешин">
+              <picture>
+                <source type="image/webp" media="(min-width: 1300px)" srcset="img/tereshin-desktop@1x.webp 1x, img/tereshin-desktop@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 768px)" srcset="img/tereshin-tablet@1x.webp 1x, img/tereshin-tablet@2x.webp 2x">
+                <source type="image/webp" srcset="img/tereshin-mobile@1x.webp 1x, img/tereshin-mobile@2x.webp 2x">
+
+                <source media="(min-width: 1300px)" srcset="img/tereshin-desktop@1x.png 1x, img/tereshin-desktop@2x.png 2x">
+                <source media="(min-width: 768px)" srcset="img/tereshin-tablet@1x.png 1x, img/tereshin-tablet@2x.png 2x">
+                <img class="speakers__item-img" src="img/tereshin-mobile@1x.png 1x" srcset="img/tereshin-mobile@2x.png 2x" alt="Иваш Терешин">
+              </picture>
             </li>
             <li class="speakers__item">
               <h4 class="speakers__item-title">Илья Пухов</h4>
               <p class="speakers__item-descr">Практикующий инвестор:</p>
               <p class="speakers__item-descr">Автор курсов: &#171;Инвестиции. Куда вкладывать деньги&#187;, &#171;Финансовый рынок: особенности и основные инструменты прибыли&#187;, &#171;Личный финансовый план. Что это и как его правильно разработать?&#187;</p>
-              <img class="speakers__item-img" src="img/puhov-mobile@1x.png 1x" srcset="img/puhov-mobile@2x.png 2x" alt="Илья Пухов">
+              <picture>
+                <source type="image/webp" media="(min-width: 1300px)" srcset="img/puhov-desktop@1x.webp 1x, img/puhov-desktop@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 768px)" srcset="img/puhov-tablet@1x.webp 1x, img/puhov-tablet@2x.webp 2x">
+                <source type="image/webp" srcset="img/puhov-mobile@1x.webp 1x, img/puhov-mobile@2x.webp 2x">
+
+                <source media="(min-width: 1300px)" srcset="img/puhov-desktop@1x.png 1x, img/puhov-desktop@2x.png 2x">
+                <source media="(min-width: 768px)" srcset="img/puhov-tablet@1x.png 1x, img/puhov-tablet@2x.png 2x">
+                <img class="speakers__item-img" src="img/puhov-mobile@1x.png 1x" srcset="img/puhov-mobile@2x.png 2x" alt="Илья Пухов">
+              </picture>
             </li>
             <li class="speakers__item">
               <h4 class="speakers__item-title">Василий Яровой</h4>
               <p class="speakers__item-descr">Управляющий криптовалютными, инвестиционными портфелями. Независимый финансовый консультант. трейдер - инвестор с 2011 года.</p>
-              <img class="speakers__item-img" src="img/yarovoi-mobile@1x.png 1x" srcset="img/yarovoi-mobile@2x.png 2x" alt="Василий Яровой">
+              <picture>
+                <source type="image/webp" media="(min-width: 1300px)" srcset="img/yarovoi-desktop@1x.webp 1x, img/yarovoi-desktop@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 768px)" srcset="img/yarovoi-tablet@1x.webp 1x, img/yarovoi-tablet@2x.webp 2x">
+                <source type="image/webp" srcset="img/yarovoi-mobile@1x.webp 1x, img/yarovoi-mobile@2x.webp 2x">
+
+                <source media="(min-width: 1300px)" srcset="img/yarovoi-desktop@1x.png 1x, img/yarovoi-desktop@2x.png 2x">
+                <source media="(min-width: 768px)" srcset="img/yarovoi-tablet@1x.png 1x, img/yarovoi-tablet@2x.png 2x">
+                <img class="speakers__item-img" src="img/yarovoi-mobile@1x.png 1x" srcset="img/yarovoi-mobile@2x.png 2x" alt="Василий Яровой">
+              </picture>
             </li>
             <li class="speakers__item">
               <h4 class="speakers__item-title">Александр Ломброзо</h4>
               <p class="speakers__item-descr">Персональный инвестиционный аналитик. Создатель персональной инвестиционной стратегии с доходностью от 30% в месяц.</p>
               <p class="speakers__item-descr">Автор методики: &#171;Цифровые инвестиции&#187;.</p>
-              <img class="speakers__item-img" src="img/lombrozo-mobile@1x.png 1x" srcset="img/lombrozo-mobile@2x.png 2x" alt="Александр Ломброзо">
+              <picture>
+                <source type="image/webp" media="(min-width: 1300px)" srcset="img/lombrozo-desktop@1x.webp 1x, img/lombrozo-desktop@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 768px)" srcset="img/lombrozo-tablet@1x.webp 1x, img/lombrozo-tablet@2x.webp 2x">
+                <source type="image/webp" srcset="img/lombrozo-mobile@1x.webp 1x, img/lombrozo-mobile@2x.webp 2x">
+
+                <source media="(min-width: 1300px)" srcset="img/lombrozo-desktop@1x.png 1x, img/lombrozo-desktop@2x.png 2x">
+                <source media="(min-width: 768px)" srcset="img/lombrozo-tablet@1x.png 1x, img/lombrozo-tablet@2x.png 2x">
+                <img class="speakers__item-img" src="img/lombrozo-mobile@1x.png 1x" srcset="img/lombrozo-mobile@2x.png 2x" alt="Александр Ломброзо">
+              </picture>
             </li>
           </ul>
         </section>
@@ -148,7 +196,15 @@
         </form>
         <section class="place">
           <h3 class="place__title">Где проходит мероприятие?</h3>
-          <img class="place__img" src="img/place-mobile@1x.jpg 1x" srcset="img/place-mobile@1x.jpg 2x" alt="г. Н. Новгород, ул. Ульянова, д. 13, 2 этаж, офис 201">
+          <picture>
+            <source type="image/webp" media="(min-width: 1300px)" srcset="img/place-desktop@1x.webp 1x, img/place-desktop@2x.webp 2x">
+            <source type="image/webp" media="(min-width: 768px)" srcset="img/place-tablet@1x.webp 1x, img/place-tablet@2x.webp 2x">
+            <source type="image/webp" srcset="img/lombrozo-mobile@1x.webp 1x, img/lombrozo-mobile@2x.webp 2x">
+
+            <source media="(min-width: 1300px)" srcset="img/place-desktop@1x.jpg 1x, img/place-desktop@2x.jpg 2x">
+            <source media="(min-width: 768px)" srcset="img/place-tablet@1x.jpg 1x, img/place-tablet@2x.jpg 2x">
+            <img class="place__img" src="img/place-mobile@1x.jpg 1x" srcset="img/place-mobile@2x.jpg 2x" alt="г. Н. Новгород, ул. Ульянова, д. 13, 2 этаж, офис 201">
+          </picture>
           <ul class="place__list">
             <li class="place__item">
               <a class="place__link" href="map.html">г. Н. Новгород, ул. Ульянова, д. 13, 2 этаж, офис 201</a>
