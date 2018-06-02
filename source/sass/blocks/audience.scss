@@ -24,3 +24,23 @@
   line-height: 16px;
   color: #000000;
 }
+
+@media (min-width: $tablet-width) {
+  .audience {
+    padding: 0;
+    padding-top: 35px;
+    padding-bottom: 40px;
+  }
+
+  .audience__title {
+    margin-bottom: 20px;
+
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .audience__item {
+    font-size: 19px;
+    line-height: 24px;
+  }
+}
