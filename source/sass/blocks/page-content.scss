@@ -5,3 +5,26 @@
 .page-content__title {
   display: none;
 }
+
+@media (min-width: $tablet-width) {
+  .page-content {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+
+  .page-content__wrap {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .page-content__title {
+    display: block;
+    margin: 0;
+    margin-bottom: 25px;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #0c0c0c;
+  }
+}

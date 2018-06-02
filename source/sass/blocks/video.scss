@@ -19,7 +19,7 @@
     height: 44px;
 
     background-color: #ffffff;
-    background-image: url("../img/icon-play.svg");
+    background-image: url("../img/icon-play-mobile.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 11px 10px;
@@ -33,11 +33,41 @@
     top: 50%;
     right: 30px;
 
+    width: 170px;
+
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     color: #ffffff;
 
     transform: translateY(-50%);
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .video {
+    margin-bottom: 40px;
+    padding: 0;
+  }
+
+  .video__wrap {
+    &::before {
+      left: 100px;
+
+      width: 108px;
+      height: 108px;
+
+      background-image: url("../img/icon-play-tablet.svg");
+      background-size: 27px 24px;
+    }
+
+    &::after {
+      right: 95px;
+
+      width: 370px;
+
+      font-size: 34px;
+      line-height: 44px;
+    }
   }
 }
