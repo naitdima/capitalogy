@@ -1,0 +1,95 @@
+.place {
+  position: relative;
+  z-index: 1;
+
+  padding-top: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 15px;
+
+    width: 290px;
+    height: 1px;
+
+    background-color: #e0e0e0;
+  }
+}
+
+.place__title {
+  margin: 0;
+  margin-bottom: 15px;
+
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 25px;
+  color: #0c0c0c;
+}
+
+.place__wrap {
+  width: 290px;
+  margin: 0 auto;
+  padding-bottom: 35px;
+
+  background: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.place__img {
+  margin-bottom: 30px;
+}
+
+.place__list {
+  @include list-reset;
+
+  display: grid;
+  padding-right: 30px;
+  padding-left: 30px;
+
+  grid-gap: 20px;
+}
+
+.place__link {
+  position: relative;
+
+  display: block;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 35px;
+
+  font-size: 12px;
+  line-height: 17px;
+  color: #0c0c0c;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+
+    width: 20px;
+
+    background-size: cover;
+  }
+
+  &--pin::before {
+    top: 5px;
+
+    height: 28px;
+
+    background-image: url("../img/icon-pin.svg");
+  }
+
+  &--phone {
+    text-decoration: underline;
+  }
+
+  &--phone::before {
+    height: 20px;
+
+    background-image: url("../img/icon-phone.svg");
+  }
+}
