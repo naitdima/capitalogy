@@ -93,3 +93,72 @@
     background-image: url("../img/icon-phone.svg");
   }
 }
+
+@media (min-width: $tablet-width) {
+  .place {
+    margin-bottom: 50px;
+    padding: 0;
+    padding-top: 50px;
+
+    &::before {
+      left: 0;
+
+      width: 710px;
+    }
+  }
+
+  .place__title {
+    margin-bottom: 50px;
+
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .place__wrap {
+    display: grid;
+    align-items: center;
+    width: 710px;
+    padding: 0;
+
+    box-shadow: none;
+
+    grid-template-columns: 350px 360px;
+  }
+
+  .place__img {
+    margin: 0;
+  }
+
+  .place__list {
+    width: 360px;
+    padding-top: 65px;
+    padding-right: 40px;
+    padding-bottom: 65px;
+    padding-left: 45px;
+
+    grid-gap: 40px;
+  }
+
+  .place__link {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 44px;
+
+    font-size: 16px;
+    line-height: 23px;
+
+    &::before {
+      width: 25px;
+    }
+
+    &--pin::before {
+      top: 9px;
+
+      height: 35px;
+    }
+
+    &--phone::before {
+      height: 25px;
+    }
+  }
+}
