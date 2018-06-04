@@ -131,3 +131,31 @@
     padding-left: 40px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .questions {
+    width: 545px;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+
+    border: 20px solid #e6e6e6;
+  }
+
+  .questions__descr {
+    width: 302px;
+  }
+
+  .questions__input {
+    width: 315px;
+    margin-bottom: 30px;
+  }
+
+  .questions__btn {
+    width: 230px;
+  }
+}

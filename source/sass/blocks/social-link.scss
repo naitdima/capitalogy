@@ -60,3 +60,40 @@
     background-image: url("../img/icon-instagram-white.svg");
   }
 }
+
+@media (min-width: $tablet-width) {
+  .social-link {
+    background-color: #57ab27;
+    border-color: transparent;
+
+    &:hover,
+    &:active {
+      background-color: transparent;
+      border-color: #bdbdbd;
+    }
+
+    &--facebook::before {
+      background-image: url("../img/icon-facebook-white.svg");
+    }
+
+    &--facebook:hover::before {
+      background-image: url("../img/icon-facebook.svg");
+    }
+
+    &--vk::before {
+      background-image: url("../img/icon-vk-white.svg");
+    }
+
+    &--vk:hover::before {
+      background-image: url("../img/icon-vk.svg");
+    }
+
+    &--instagram::before {
+      background-image: url("../img/icon-instagram-white.svg");
+    }
+
+    &--instagram:hover::before {
+      background-image: url("../img/icon-instagram.svg");
+    }
+  }
+}

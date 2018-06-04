@@ -131,3 +131,23 @@
     display: none;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .registration {
+    width: 715px;
+    margin: 0;
+    padding-right: 40px;
+    padding-bottom: 120px;
+    padding-left: 40px;
+  }
+
+  .registration__descr {
+    &--places {
+      margin-bottom: 50px;
+    }
+  }
+
+  .registration__link {
+    width: 295px;
+  }
+}
