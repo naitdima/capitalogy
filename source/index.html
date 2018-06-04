@@ -187,45 +187,49 @@
             </li>
           </ul>
         </section>
-        <section class="registration">
-          <h3 class="registration__title">Записаться на семинар</h3>
-          <p class="registration__descr  registration__descr--price">Стоимость участия: <span>БЕСПЛАТНО</span></p>
-          <p class="registration__descr  registration__descr--places">Количество мест ограничено!</p>
-          <a class="btn  registration__link" href="registration.html">Оплатить место</a>
-          <a class="registration__privacy-link" href="privacy.html">Политика конфиденциальности</a>
-        </section>
-        <form class="questions" action="" method="post">
-          <h3 class="questions__title">Остались вопросы?</h3>
-          <p class="questions__descr">Оставьте свой номер телефона и наш менедеджер свяжется с вами для проведения бесплатной консультации</p>
-          <input class="questions__input" type="tel" placeholder="+7 (920) 234 - 1_ - __">
-          <button class="questions__btn" type="submit">Консультация</button>
-        </form>
-        <section class="place">
-          <h3 class="place__title">Где проходит мероприятие?</h3>
-          <div class="place__wrap">
-            <picture>
-              <source type="image/webp" media="(min-width: 1300px)" srcset="img/place-desktop@1x.webp 1x, img/place-desktop@2x.webp 2x">
-              <source type="image/webp" media="(min-width: 768px)" srcset="img/place-tablet@1x.webp 1x, img/place-tablet@2x.webp 2x">
-              <source type="image/webp" srcset="img/place-mobile@1x.webp 1x, img/place-mobile@2x.webp 2x">
+        <div class="registration-questions-wrap">
+          <section class="registration">
+            <h3 class="registration__title">Записаться на семинар</h3>
+            <p class="registration__descr  registration__descr--price">Стоимость участия: <span>БЕСПЛАТНО</span></p>
+            <p class="registration__descr  registration__descr--places">Количество мест ограничено!</p>
+            <a class="btn  registration__link" href="registration.html">Оплатить место</a>
+            <a class="registration__privacy-link" href="privacy.html">Политика конфиденциальности</a>
+          </section>
+          <form class="questions" action="" method="post">
+            <h3 class="questions__title">Остались вопросы?</h3>
+            <p class="questions__descr">Оставьте свой номер телефона и наш менедеджер свяжется с вами для проведения бесплатной консультации</p>
+            <input class="questions__input" type="tel" placeholder="+7 (920) 234 - 1_ - __">
+            <button class="questions__btn" type="submit">Консультация</button>
+          </form>
+        </div>
+        <div class="place-map-wrap">
+          <h3 class="place-map-wrap__title">Где проходит мероприятие?</h3>
+          <section class="place">
+            <div class="place__wrap">
+              <picture>
+                <source type="image/webp" media="(min-width: 1300px)" srcset="img/place-desktop@1x.webp 1x, img/place-desktop@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 768px)" srcset="img/place-tablet@1x.webp 1x, img/place-tablet@2x.webp 2x">
+                <source type="image/webp" srcset="img/place-mobile@1x.webp 1x, img/place-mobile@2x.webp 2x">
 
-              <source media="(min-width: 1300px)" srcset="img/place-desktop@1x.jpg 1x, img/place-desktop@2x.jpg 2x">
-              <source media="(min-width: 768px)" srcset="img/place-tablet@1x.jpg 1x, img/place-tablet@2x.jpg 2x">
-              <img class="place__img" src="img/place-mobile@1x.jpg 1x" srcset="img/place-mobile@2x.jpg 2x" alt="г. Н. Новгород, ул. Ульянова, д. 13, 2 этаж, офис 201">
-            </picture>
-            <ul class="place__list">
-              <li class="place__item">
-                <a class="place__link  place__link--pin" href="map.html">г. Н. Новгород, ул. Ульянова, д. 13, 2 этаж, офис 201</a>
-              </li>
-              <li class="place__item">
-                <a class="place__link  place__link--phone" href="tel:88001002939">8 800 100 29 39</a>
-              </li>
-            </ul>
-          </div>
-        </section>
+                <source media="(min-width: 1300px)" srcset="img/place-desktop@1x.jpg 1x, img/place-desktop@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="img/place-tablet@1x.jpg 1x, img/place-tablet@2x.jpg 2x">
+                <img class="place__img" src="img/place-mobile@1x.jpg 1x" srcset="img/place-mobile@2x.jpg 2x" alt="г. Н. Новгород, ул. Ульянова, д. 13, 2 этаж, офис 201">
+              </picture>
+              <ul class="place__list">
+                <li class="place__item">
+                  <a class="place__link  place__link--pin" href="map.html">г. Н. Новгород, ул. Ульянова, д. 13, 2 этаж, офис 201</a>
+                </li>
+                <li class="place__item">
+                  <a class="place__link  place__link--phone" href="tel:88001002939">8 800 100 29 39</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="map">
+            <iframe class="map__iframe" src="https://yandex.ru/map-widget/v1/?um=constructor%3A0639c72124058c363dcb3573eccaed01912046940ebe4d53392b46717c743d0b&amp;source=constructor"></iframe>
+          </section>
+        </div>
       </div>
-      <section class="map">
-        <iframe class="map__iframe" src="https://yandex.ru/map-widget/v1/?um=constructor%3A0639c72124058c363dcb3573eccaed01912046940ebe4d53392b46717c743d0b&amp;source=constructor"></iframe>
-      </section>
     </main>
     <footer class="page-footer">
       <div class="container page-footer__wrap">
