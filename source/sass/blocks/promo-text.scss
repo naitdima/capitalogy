@@ -80,3 +80,35 @@
     text-shadow: none;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .promo-text {
+    align-items: start;
+    width: 400px;
+    padding: 0;
+  }
+
+  .promo-text__descr {
+    width: 400px;
+
+    &--experts {
+      margin-bottom: 20px;
+
+      font-size: 19px;
+      line-height: 24px;
+    }
+
+    &--question {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+
+  .promo-text__title {
+    width: 400px;
+    margin-bottom: 30px;
+
+    font-size: 60px;
+    line-height: 67px;
+  }
+}

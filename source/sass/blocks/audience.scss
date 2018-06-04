@@ -44,3 +44,39 @@
     line-height: 24px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .audience {
+    order: 3;
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+
+  .audience__title {
+    margin-bottom: 25px;
+
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .audience__item {
+    position: relative;
+
+    padding-left: 60px;
+
+    font-size: 18px;
+    line-height: 24px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 11px;
+      left: 0;
+
+      width: 45px;
+      height: 5px;
+
+      background-color: #57ab27;
+    }
+  }
+}

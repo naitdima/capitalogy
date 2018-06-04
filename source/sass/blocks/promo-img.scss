@@ -34,3 +34,24 @@
     }
   }
 }
+
+@media (min-width: $desktop-width) {
+  .promo-img {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 840px;
+
+    &::before {
+      top: -75px;
+      left: 70px;
+
+      width: 697px;
+      height: 150px;
+
+      background-image: url("../img/chart-desktop.svg");
+    }
+  }
+}

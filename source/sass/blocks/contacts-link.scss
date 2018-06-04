@@ -1,7 +1,8 @@
 .contacts-link {
   position: relative;
-  width: 150px;
+
   display: block;
+  width: 150px;
   padding-left: 40px;
 
   font-size: 14px;
@@ -19,5 +20,48 @@
 
     background-image: url("../img/icon-phone-nobg.svg");
     background-size: cover;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts-link {
+    width: 210px;
+    margin-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 55px;
+
+    font-size: 20px;
+    line-height: 26px;
+    color: #57ab27;
+
+    &--less {
+      margin: 0;
+      padding-left: 46px;
+
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    &::before {
+      top: 10px;
+      left: 10px;
+
+      width: 15px;
+      height: 15px;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      width: 35px;
+      height: 35px;
+
+      border: 1px solid #e0e0e0;
+      border-radius: 50%;
+    }
   }
 }

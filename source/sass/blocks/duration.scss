@@ -100,3 +100,41 @@
     line-height: 24px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .duration {
+    justify-content: flex-start;
+    order: 4;
+    margin-bottom: 80px;
+    padding: 0;
+  }
+
+  .duration__descr-wrap {
+    width: 735px;
+    margin-right: 85px;
+    padding-right: 140px;
+
+    &::before {
+      right: -38px;
+
+      width: 143px;
+      height: 138px;
+    }
+  }
+
+  .duration__descr {
+    width: 555px;
+
+    font-size: 30px;
+    line-height: 44px;
+  }
+
+  .duration__link {
+    width: 300px;
+    padding-right: 85px;
+    padding-left: 85px;
+
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
